@@ -51,7 +51,7 @@ pip install -r requirements.txt
 To use the diamond price prediction model, follow these steps:
 
 <li><strong>Prepare Data:</strong> Ensure your input data has the required features (carat, cut, color, clarity, depth).</li>
-<li><strong>Load Model:</strong> Use the provided script to load the pre-trained model</li>
+<p>Load Model:Use the provided script to load the pre-trained model</p>
 ```
 python load_model.py
 ```
