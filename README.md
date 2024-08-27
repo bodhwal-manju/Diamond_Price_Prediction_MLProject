@@ -1,18 +1,5 @@
-# Diamond Price Prediction Project
-## Overview
-Welcome to the Diamond Price Prediction project! This project focuses on predicting the price of diamonds based on various features and attributes. Whether you are a diamond enthusiast, jeweler, or someone interested in machine learning and predictive modeling, this project provides a valuable tool for estimating diamond prices.
-
-Table of Contents
-Introduction
-Features
-Dataset
-Installation
-Usage
-Model Training
-Evaluation
-Results
-
-### Introduction
+# Diamond Price Prediction
+## OverView
 Diamonds are precious gemstones with various characteristics influencing their value. This project leverages machine learning techniques to predict the price of diamonds, taking into account factors such as carat weight, cut, color, clarity, and depth percentage.
 
 <h2>Features</h2>
@@ -35,6 +22,37 @@ Navigate to the project directory:
 cd diamond-price-prediction
 Install the required dependencies:
 pip install -r requirements.txt
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone this repository</p>
+
+```
+git clone https://github.com/your-username/diamond-price-prediction.git
+```
+
+<p>2. Navigate to the project directory:</p>
+
+```
+cd Diamond_Price_Prediction_MLProject
+```
+
+<p>3. Create Virtual Environment(Using venv (Python 3 built-in module))</p>
+
+```
+python -m venv venv
+```
+
+<p>4. Activate the virtual environment(On Windows):</p>
+
+```
+venv\Scripts\activate
+```
+
+<p>5. Install Requirements</p>
+
+```
+pip install -r requirements.txt
+```
 ### Usage
 To use the diamond price prediction model, follow these steps:
 
