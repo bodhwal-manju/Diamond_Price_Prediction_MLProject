@@ -21,7 +21,7 @@ The dataset used for training and testing the model is available in the data dir
 <p>1. Clone this repository</p>
 
 ```
-git clone https://github.com/your-username/diamond-price-prediction.git
+git clone https://github.com/bodhwal-manju/Diamond_Price_Prediction_MLProject.git
 ```
 
 <p>2. Navigate to the project directory:</p>
