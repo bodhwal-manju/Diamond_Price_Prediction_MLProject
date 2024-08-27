@@ -50,12 +50,16 @@ pip install -r requirements.txt
 ### Usage
 To use the diamond price prediction model, follow these steps:
 
-Prepare Data: Ensure your input data has the required features (carat, cut, color, clarity, depth).
-Load Model: Use the provided script to load the pre-trained model:
+<li><strong>Prepare Data:</strong> Ensure your input data has the required features (carat, cut, color, clarity, depth).</li>
+<li><strong>Load Model:</strong> Use the provided script to load the pre-trained model</li>
+```
 python load_model.py
-Make Predictions: Utilize the model to make predictions on your diamond data:
+```
+<li><strong>Make Predictions:</strong> Utilize the model to make predictions on your diamond data</li>
+```
 python predict_price.py --carat 1.5 --cut Very Good --color F --clarity VS1 --depth 61.5
-Adjust the input values accordingly.
+```
+<li>Adjust the input values accordingly.</li>
 
 ### Model Training
 If you want to retrain the model or experiment with different algorithms, refer to the training_pipeline.ipynb Jupyter notebook for detailed steps.
@@ -68,7 +72,7 @@ Lasso
 Best Model Training Performance
 <li><strong>RMSE:</strong> 1013.8784226767013</li>
 <li><strong>MAE:</strong> 675.071692336216</li>
-<li><strong>R2 score:</strong> 93.68940971841704</li>li
+<li><strong>R2 score:</strong> 93.68940971841704</li>
 
 ### Contributing
 Contributions are welcome! Feel free to submit issues, pull requests, or suggestions to improve the project.
