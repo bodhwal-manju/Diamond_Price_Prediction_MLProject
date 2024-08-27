@@ -1,5 +1,5 @@
-# Diamond Price Prediction
-##🤜 OverView
+<h1 align="center" id="title">Diamond Price Prediction</h1>
+<h2>🤜Overview</h2>
 Diamonds are precious gemstones with various characteristics influencing their value. This project leverages machine learning techniques to predict the price of diamonds, taking into account factors such as carat weight, cut, color, clarity, and depth percentage.
 
 <h2>Features</h2>
@@ -12,7 +12,7 @@ Diamonds are precious gemstones with various characteristics influencing their v
     </ul>
 
 
-### Dataset
+<h2>Dataset</h2>
 The dataset used for training and testing the model is available in the data directory. The dataset contains a comprehensive set of diamonds with corresponding features and prices.
 
 
@@ -47,7 +47,7 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-## Usage
+<h2>Usage</h2>
 
 To use the diamond price prediction model, follow these steps:
 
@@ -72,7 +72,7 @@ If you want to retrain the model or experiment with different algorithms, refer 
 ### Evaluation
 The model's performance can be evaluated using metrics such as Mean Absolute Error (MAE) ,RMSE And  R-squared.
 
-### Results
+<h2> Results</h2>
 Lasso
 Best Model Training Performance
 <li><strong>RMSE:</strong> 1013.8784226767013</li>
@@ -83,7 +83,7 @@ Best Model Training Performance
 
 This project is licensed under the MIT License
 
-### Contributing
+<h2> Contributing</h2>
 Contributions are welcome! Feel free to submit issues, pull requests, or suggestions to improve the project.
 
 
