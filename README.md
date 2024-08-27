@@ -15,13 +15,7 @@ Diamonds are precious gemstones with various characteristics influencing their v
 ### Dataset
 The dataset used for training and testing the model is available in the data directory. The dataset contains a comprehensive set of diamonds with corresponding features and prices.
 
-### Installation
-Clone the repository:
-git clone https://github.com/your-username/diamond-price-prediction.git
-Navigate to the project directory:
-cd diamond-price-prediction
-Install the required dependencies:
-pip install -r requirements.txt
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone this repository</p>
