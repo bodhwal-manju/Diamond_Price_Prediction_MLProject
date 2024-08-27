@@ -47,11 +47,12 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-### Usage
+<h2>Usage</h2>
 To use the diamond price prediction model, follow these steps:
 
 <li><strong>Prepare Data:</strong> Ensure your input data has the required features (carat, cut, color, clarity, depth).</li>
-<p>Load Model:Use the provided script to load the pre-trained model</p>
+
+<p>2. Load Model:Use the provided script to load the pre-trained model</p>
 ```
 python load_model.py
 ```
