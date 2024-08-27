@@ -47,19 +47,24 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-<h2>Usage</h2>
+## Usage
+
 To use the diamond price prediction model, follow these steps:
 
-<li><strong>Prepare Data:</strong> Ensure your input data has the required features (carat, cut, color, clarity, depth).</li>
+1. **Prepare Data:** Ensure your input data has the required features (carat, cut, color, clarity, depth).
 
-<li><strong>2. Load Model</strong>:Use the provided script to load the pre-trained model</li>
-```
-python load_model.py
-```
+2. **Load Model:** Use the provided script to load the pre-trained model.
 
-<li><strong>Make Predictions:</strong> Utilize the model to make predictions on your diamond data</li>
-python predict_price.py --carat 1.5 --cut Very Good --color F --clarity VS1 --depth 61.5
-<li>Adjust the input values accordingly.</li>
+    ```bash
+    python load_model.py
+    ```
+
+3. **Make Predictions:** Utilize the model to make predictions on your diamond data. Adjust the input values accordingly.
+
+    ```bash
+    python predict_price.py --carat 1.5 --cut "Very Good" --color F --clarity VS1 --depth 61.5
+    ```
+
 
 ### Model Training
 If you want to retrain the model or experiment with different algorithms, refer to the training_pipeline.ipynb Jupyter notebook for detailed steps.
