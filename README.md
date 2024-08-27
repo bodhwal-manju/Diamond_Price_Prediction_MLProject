@@ -1,5 +1,5 @@
 # Diamond Price Prediction
-## OverView
+##🤜 OverView
 Diamonds are precious gemstones with various characteristics influencing their value. This project leverages machine learning techniques to predict the price of diamonds, taking into account factors such as carat weight, cut, color, clarity, and depth percentage.
 
 <h2>Features</h2>
@@ -78,6 +78,10 @@ Best Model Training Performance
 <li><strong>RMSE:</strong> 1013.8784226767013</li>
 <li><strong>MAE:</strong> 675.071692336216</li>
 <li><strong>R2 score:</strong> 93.68940971841704</li>
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT License
 
 ### Contributing
 Contributions are welcome! Feel free to submit issues, pull requests, or suggestions to improve the project.
