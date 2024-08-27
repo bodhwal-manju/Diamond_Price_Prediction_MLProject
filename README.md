@@ -61,10 +61,14 @@ Adjust the input values accordingly.
 If you want to retrain the model or experiment with different algorithms, refer to the training_pipeline.ipynb Jupyter notebook for detailed steps.
 
 ### Evaluation
-The model's performance can be evaluated using metrics such as Mean Absolute Error (MAE) and R-squared.
+The model's performance can be evaluated using metrics such as Mean Absolute Error (MAE) ,RMSE And  R-squared.
 
 ### Results
-The model achieves competitive accuracy in predicting diamond prices, as demonstrated in the results folder.
+Lasso
+Best Model Training Performance
+<li><strong>RMSE:</strong> 1013.8784226767013</li>
+<li><strong>MAE:</strong> 675.071692336216</li>
+<li><strong>R2 score:</strong> 93.68940971841704</li>li
 
 ### Contributing
 Contributions are welcome! Feel free to submit issues, pull requests, or suggestions to improve the project.
