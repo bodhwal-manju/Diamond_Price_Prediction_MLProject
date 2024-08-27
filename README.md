@@ -15,16 +15,18 @@ Results
 ### Introduction
 Diamonds are precious gemstones with various characteristics influencing their value. This project leverages machine learning techniques to predict the price of diamonds, taking into account factors such as carat weight, cut, color, clarity, and depth percentage.
 
-### Features
-The model considers the following features for predicting diamond prices:
+<h2>Features</h2>
+    <ul>
+        <li><strong>Carat:</strong>Weight of the diamond.</li>
+        <li><strong>Cut:</strong>Quality of the cut (Fair, Good, Very Good, Premium, Ideal).</li>
+        <li><strong>Color:</strong>Color grade of the diamond (from D, colorless, to Z, light yellow or brown).</li>
+        <li><strong>Clarity:</strong>Clarity grade indicating the presence of inclusions or blemishes.</li>
+         <li><strong>Depth:</strong> Depth percentage of the diamond.</li>
+    </ul>
 
-Carat: Weight of the diamond.
-Cut: Quality of the cut (Fair, Good, Very Good, Premium, Ideal).
-Color: Color grade of the diamond (from D, colorless, to Z, light yellow or brown).
-Clarity: Clarity grade indicating the presence of inclusions or blemishes.
-Depth: Depth percentage of the diamond.
+
 ### Dataset
-The dataset used for training and testing the model is available in the dataset directory. The dataset contains a comprehensive set of diamonds with corresponding features and prices.
+The dataset used for training and testing the model is available in the data directory. The dataset contains a comprehensive set of diamonds with corresponding features and prices.
 
 ### Installation
 Clone the repository:
