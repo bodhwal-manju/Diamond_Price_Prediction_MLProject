@@ -54,8 +54,10 @@ To use the diamond price prediction model, follow these steps:
 
 <p>2. Load Model:Use the provided script to load the pre-trained model</p>
 ```
+
 python load_model.py
 ```
+
 <li><strong>Make Predictions:</strong> Utilize the model to make predictions on your diamond data</li>
 ```
 python predict_price.py --carat 1.5 --cut Very Good --color F --clarity VS1 --depth 61.5
